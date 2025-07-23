@@ -1,0 +1,117 @@
+[
+    {
+        "term": "Μικροβιολογία Τροφίμων",
+        "translation": { "en": "Food Microbiology" },
+        "definition": "Η μελέτη των μικροοργανισμών που επηρεάζουν την ασφάλεια και την ποιότητα των τροφίμων..",
+        "field": "Microbiology"
+    },
+    {
+        "term": "Ασφάλεια Τροφίμων",
+        "translation": { "en": "Food Safety" },
+        "definition": "Τα μέτρα που λαμβάνονται για την πρόληψη επιβλαβών επιδράσεων στην ανθρώπινη υγεία από τρόφιμα.",
+        "field": "Food Quality & Safety"
+    },
+    {
+        "term": "Λιπίδια",
+        "translation": { "en": "Lipids" },
+        "definition": "Μια κατηγορία οργανικών ενώσεων που περιλαμβάνει λίπη, έλαια και στεροειδή.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Αντιοξειδωτικά",
+        "translation": { "en": "Antioxidants" },
+        "definition": "Ουσίες που μειώνουν ή αποτρέπουν την οξείδωση και καταπολεμούν τις ελεύθερες ρίζες.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Υδατάνθρακες",
+        "translation": { "en": "Carbohydrates" },
+        "definition": "Μακροθρεπτικά συστατικά που παρέχουν ενέργεια μέσω γλυκόζης.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Πρωτεΐνες",
+        "translation": { "en": "Proteins" },
+        "definition": "Βασικά θρεπτικά συστατικά που εμπλέκονται στη δομή και λειτουργία των κυττάρων.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Ζυμώσεις",
+        "translation": { "en": "Fermentations" },
+        "definition": "Διαδικασία κατά την οποία μικροοργανισμοί μεταβολίζουν οργανικές ενώσεις, παράγοντας π.χ. γαλακτικό οξύ ή αιθανόλη.",
+        "field": "Food Microbiology"
+    },
+    {
+        "term": "Γλουτένη",
+        "translation": { "en": "Gluten" },
+        "definition": "Μείγμα πρωτεϊνών που βρίσκεται στα σιτηρά και επηρεάζει την ελαστικότητα της ζύμης.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Συντηρητικά",
+        "translation": { "en": "Preservatives" },
+        "definition": "Χημικές ουσίες που χρησιμοποιούνται για την επιμήκυνση της διάρκειας ζωής των τροφίμων.",
+        "field": "Food Additives"
+    },
+    {
+        "term": "Παστερίωση",
+        "translation": { "en": "Pasteurization" },
+        "definition": "Διαδικασία θέρμανσης που χρησιμοποιείται για την καταστροφή παθογόνων μικροοργανισμών στα τρόφιμα.",
+        "field": "Food Processing"
+    },
+    {
+        "term": "Υγροποίηση",
+        "translation": { "en": "Liquefaction" },
+        "definition": "Διαδικασία μετατροπής στερεών τροφίμων σε υγρή μορφή μέσω ένζυμων ή χημικών αντιδράσεων.",
+        "field": "Food Engineering"
+    },
+    {
+        "term": "Σύνθεση Λιπαρών Οξέων",
+        "translation": { "en": "Fatty Acid Composition" },
+        "definition": "Η αναλογία και το είδος των λιπαρών οξέων που περιέχει ένα τρόφιμο.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Οργανοληπτική Ανάλυση",
+        "translation": { "en": "Sensory Analysis" },
+        "definition": "Η επιστημονική μελέτη της αντίληψης των τροφίμων μέσω των αισθήσεων.",
+        "field": "Sensory Science"
+    },
+    {
+        "term": "Δείκτης Οξύτητας",
+        "translation": { "en": "Acidity Index" },
+        "definition": "Μέτρο του περιεχομένου ενός τροφίμου σε ελεύθερα λιπαρά οξέα.",
+        "field": "Food Quality & Safety"
+    },
+    {
+        "term": "Οξειδωτική Ταγγότητα",
+        "translation": { "en": "Oxidative Rancidity" },
+        "definition": "Η υποβάθμιση των λιπιδίων λόγω οξείδωσης, που οδηγεί σε δυσάρεστη γεύση και οσμή.",
+        "field": "Food Quality & Safety"
+    },
+    {
+        "term": "Υγροποίηση Αμύλου",
+        "translation": { "en": "Starch Liquefaction" },
+        "definition": "Η διάσπαση του αμύλου σε μικρότερα μόρια, συνήθως μέσω ενζύμων.",
+        "field": "Food Chemistry"
+    },
+    {
+        "term": "Βιοδιασπώμενη Συσκευασία",
+        "translation": { "en": "Biodegradable Packaging" },
+        "definition": "Υλικά συσκευασίας που αποσυντίθενται φυσικά στο περιβάλλον.",
+        "field": "Food Packaging"
+    },
+    {
+        "term": "Αλλεργιογόνα",
+        "translation": { "en": "Allergens" },
+        "definition": "Ουσίες στα τρόφιμα που προκαλούν αλλεργικές αντιδράσεις σε ορισμένα άτομα.",
+        "field": "Food Safety"
+    },
+    {
+        "term": "Μεταβολισμός Τροφίμων",
+        "translation": { "en": "Food Metabolism" },
+        "definition": "Οι βιοχημικές διαδικασίες μέσω των οποίων τα τρόφιμα διασπώνται και χρησιμοποιούνται από το σώμα.",
+        "field": "Food Biochemistry"
+    }
+]
+
