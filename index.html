@@ -73,7 +73,7 @@
 
         async function loadData() {
             try {
-                const response = await fetch('https://teniapanagiotou.github.io/food-science-dictionary/food-science-termbase.json');
+                const response = await fetch('https://teniapanagiotou.github.io/food-science-dictionary/terms.json');
                 termsData = await response.json();
 
                 if (!termsData || termsData.length === 0) {
