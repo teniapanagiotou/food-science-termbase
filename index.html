@@ -98,14 +98,14 @@
                     this.field('term', { boost: 2 }); // Prioritize term name
                     this.field('Definition'); // Index definitions
                     this.field('field'); // Index field of study
-                    this.field('translation_en', { boost: 1.5 }); // Include English translation
+                    this.field('EnglishTerm_en', { boost: 1.5 }); // Include English translation
 
                     termsData.forEach((doc) => {
                         this.add({
                             term: doc.term.toLowerCase(),
                             Definition: doc.Definition.toLowerCase(),
                             field: doc.field.toLowerCase(),
-                            translation_en: doc.translation.en ? doc.translation.en.toLowerCase() : ""
+                            EnglishTerm_en: doc.EnglishTerm.en ? doc.EnglishTerm.en.toLowerCase() : ""
                         });
                     });
                 });
@@ -141,7 +141,7 @@
                         resultsDiv.innerHTML += `<div class="result">
                             <strong>${termObj.term}</strong> (${termObj.field})<br>
                             ${termObj.Definition} <br> 
-                            <i>Translation:</i> ${termObj.translation.en || "N/A"}
+                            <i>EnglishTerm:</i> ${termObj.EnglishTerm.en || "N/A"}
                         </div>`;
                     });
                 }
