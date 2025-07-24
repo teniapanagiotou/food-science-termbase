@@ -111,7 +111,7 @@
                     termsData.forEach((doc) => {
                         this.add({
                             GreekTerm: doc.GreekTerm.toLowerCase(),
-                            Definition: doc.Definition.toLowerCase(),
+                            Definition: doc.Definition ? doc.Definition.toLowerCase() : "",
                             Domain: doc.Domain.toLowerCase(),
                             EnglishTerm: doc.EnglishTerm ? doc.EnglishTerm.toLowerCase() : ""
                         });
