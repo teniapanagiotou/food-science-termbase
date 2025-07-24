@@ -1,19 +1,19 @@
 [
     {
         "GreekTerm": "Μικροβιολογία Τροφίμων",
-        "EnglishTerm": { "en": "Food Microbiology" },
+        "EnglishTerm": "Food Microbiology",
         "Definition": "Η μελέτη των μικροοργανισμών που επηρεάζουν την ασφάλεια και την ποιότητα των τροφίμων..",
         "Domain": "Microbiology"
     },
     {
         "GreekTerm": "Ασφάλεια Τροφίμων",
-        "EnglishTerm": { "en": "Food Safety" },
+        "EnglishTerm": "Food Safety",
         "Definition": "Τα μέτρα που λαμβάνονται για την πρόληψη επιβλαβών επιδράσεων στην ανθρώπινη υγεία από τρόφιμα.",
         "Domain": "Food Quality & Safety"
     },
     {
         "GreekTerm": "Λιπίδια",
-        "EnglishTerm": { "en": "Lipids" },
+        "EnglishTerm": "Lipids",
         "Definition": "Μια κατηγορία οργανικών ενώσεων που περιλαμβάνει λίπη, έλαια και στεροειδή.",
         "Domain": "Food Chemistry"
     }
