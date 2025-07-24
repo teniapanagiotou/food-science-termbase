@@ -149,7 +149,7 @@
                     resultsDiv.innerHTML = "<p>No results found.</p>";
                 } else {
                     results.forEach(result => {
-                        let termObj = termsData.find(t => t.GreekTerm === result.ref);
+                        let termObj = termsData.find(t => removeDiacritics(t.GreekTerm.toLowerCase()) === result.ref);
                         resultsDiv.innerHTML += `<div class="result">
                             <strong>${termObj.GreekTerm}</strong> (${termObj.Domain})<br>
                             ${termObj.Definition} <br> 
