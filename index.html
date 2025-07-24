@@ -79,6 +79,10 @@
         let termsData = [];
         let idx;
 
+        function removeDiacritics(str) {
+          return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        }
+
         async function loadData() {
             try {
                 const response = await fetch('https://teniapanagiotou.github.io/food-science-termbase/terms.json');
@@ -110,10 +114,10 @@
 
                     termsData.forEach((doc) => {
                         this.add({
-                            GreekTerm: doc.GreekTerm.toLowerCase(),
-                            Definition: doc.Definition ? doc.Definition.toLowerCase() : "",
-                            Domain: doc.Domain.toLowerCase(),
-                            EnglishTerm: doc.EnglishTerm ? doc.EnglishTerm.toLowerCase() : ""
+                            GreekTerm: removeDiacritics(doc.GreekTerm.toLowerCase()),
+                            Definition: doc.Definition ? removeDiacritics(doc.Definition.toLowerCase()) : "",
+                            Domain: doc.Domain ? removeDiacritics(doc.Domain.toLowerCase()) : "",
+                            EnglishTerm: doc.EnglishTerm ? removeDiacritics(doc.EnglishTerm.toLowerCase()) : ""
                         });
                     });
                 });
@@ -136,7 +140,7 @@
             resultsDiv.innerHTML = '';
 
             if (query.length > 1) {
-                let results = idx.search(query);
+                let results = idx.search(removeDiacritics(query.toLowerCase()));
                 
                 console.log("🔎 Search Query:", query);
                 console.log("🔎 Search Results:", results);
