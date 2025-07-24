@@ -108,7 +108,7 @@
                             GreekTerm: doc.GreekTerm.toLowerCase(),
                             Definition: doc.Definition.toLowerCase(),
                             Domain: doc.Domain.toLowerCase(),
-                            EnglishTerm_en: doc.EnglishTerm.en ? doc.EnglishTerm.en.toLowerCase() : ""
+                            EnglishTerm_en: doc.EnglishTerm ? doc.EnglishTerm.toLowerCase() : ""
                         });
                     });
                 });
@@ -144,7 +144,7 @@
                         resultsDiv.innerHTML += `<div class="result">
                             <strong>${termObj.GreekTerm}</strong> (${termObj.Domain})<br>
                             ${termObj.Definition} <br> 
-                            <i>EnglishTerm:</i> ${termObj.EnglishTerm.en || "N/A"}
+                            <i>EnglishTerm:</i> ${termObj.EnglishTerm || "N/A"}
                         </div>`;
                     });
                 }
