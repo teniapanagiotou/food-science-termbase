@@ -106,14 +106,14 @@
                     this.field('GreekTerm', { boost: 2 }); // Prioritize term name
                     this.field('Definition'); // Index definitions
                     this.field('Domain'); // Index field of study
-                    this.field('EnglishTerm_en', { boost: 1.5 }); // Include English translation
+                    this.field('EnglishTerm', { boost: 1.5 }); // Include English translation
 
                     termsData.forEach((doc) => {
                         this.add({
                             GreekTerm: doc.GreekTerm.toLowerCase(),
                             Definition: doc.Definition.toLowerCase(),
                             Domain: doc.Domain.toLowerCase(),
-                            EnglishTerm_en: doc.EnglishTerm ? doc.EnglishTerm.toLowerCase() : ""
+                            EnglishTerm: doc.EnglishTerm ? doc.EnglishTerm.toLowerCase() : ""
                         });
                     });
                 });
